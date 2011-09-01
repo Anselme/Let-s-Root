@@ -1,47 +1,111 @@
-html, body {
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  padding: 0;
-  margin: 0;
+@font-face {
+    font-family: "FuturaStd-Condensed";
+    font-weight: bold;
+    src: url('/font/FuturaStd-CondensedBold.otf');
 }
 
-#full-screen-background-image {
-  z-index: -999;
-  min-height: 100%;
-  min-width: 1024px;
-  width: 100%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
+@font-face {
+    font-family: "FuturaStd-Condensed";
+    font-weight: lighter;
+    src: url('/font/FuturaStd-CondensedLight.otf');
+}
+
+@font-face {
+    font-family: "FuturaStd";
+    font-weight: normal;
+    src: url('/font/FuturaStd-Medium.otf');
+}
+
+
+html {
+    padding: 0;
+    margin: 0;
+    font-family: "FuturaStd" ;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image:url('/img/gribouillis.png');
+    background-repeat: no-repeat;
+    background-position: 48% 10%;
+    background-color: #E3E3E3;
+}
+
+h1 {
+    color: #3D9926 ;
+    font-family: "FuturaStd-Condensed" ;
+    font-weight: bold;
+    font-size: 5.6em;
+    margin-bottom: 0px;
+}
+
+h1 span {
+    color: #E8B2A9 ;
+}
+
+h2 {
+    font-family: "FuturaStd-Condensed" ;
+    font-weight: lighter;
+    font-size: 1.7em;
+    margin-top: 0px;
+    letter-spacing: 2px;
 }
 
 #container {
-  position: relative;
-  width: 800px;
-  min-height: 400px;
-  margin: 400px auto;
-  color: #333;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    width: 660px;
+    height: 400px;
+    margin-top: -350px;
+    margin-left: -330px;
 }
 
-a {
-    text-decoration: none ;
-    color: black;
+#main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 
-a:active {
-    text-decoration: none ;
-    color: black;
-}
-
-a:hover {
-    text-decoration: none ;
-    color: black;
+#contact a{
+    color: #6B6C6E ;
+    text-decoration: none;
+    font-family: "FuturaStd-Condensed" ;
     font-weight: bold;
+    font-size: 2em;
 }
 
-li {
-    color: green;
+#realisations {
+    text-align: right;
 }
 
+#realisations a{
+    color: #6B6C6E ;
+    text-decoration: none;
+    font-family: "FuturaStd-Condensed" ;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#cv {
+    text-align: right;
+}
+
+#cv a{
+    color: #E8B2A9 ;
+    text-decoration: none;
+    font-family: "FuturaStd-Condensed" ;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.rotate_10 {
+  -moz-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+}
+
+.rotate_minus_10 {
+  -moz-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+}
