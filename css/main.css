@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "FuturaStd-Condensed";
+    font-family: "FuturaStd-Condensed" ;
     font-weight: bold;
     src: url('/font/FuturaStd-CondensedBold.otf');
 }
@@ -20,7 +20,7 @@
 html,body {
     padding: 0;
     margin: 0;
-    font-family: "FuturaStd" ;
+    font-family: "FuturaStd", Arial ;
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -39,7 +39,7 @@ html,body {
 
 h1 {
     color: #3D9926 ;
-    font-family: "FuturaStd-Condensed" ;
+    font-family: "FuturaStd-Condensed", Arial ;
     font-weight: bold;
     font-size: 5.6em;
     margin-bottom: 0px;
@@ -50,7 +50,7 @@ h1 span {
 }
 
 h2 {
-    font-family: "FuturaStd-Condensed" ;
+    font-family: "FuturaStd-Condensed", Arial ;
     font-weight: lighter;
     font-size: 1.7em;
     margin-top: 0px;
@@ -80,7 +80,7 @@ h2 {
 
 #contact {
     text-decoration: none;
-    font-family: "FuturaStd-Condensed" ;
+    font-family: "FuturaStd-Condensed" , Arial;
     font-weight: bold;
     font-size: 2.2em;
     color: #6B6C6E ;
@@ -89,7 +89,7 @@ h2 {
 
 #cv {
     text-decoration: none;
-    font-family: "FuturaStd-Condensed" ;
+    font-family: "FuturaStd-Condensed" , Arial;
     font-weight: bold;
     font-size: 3.2em;
     color: #E8B2A9 ;
@@ -104,7 +104,7 @@ h2 {
 #realisations a{
     color: #6B6C6E ;
     text-decoration: none;
-    font-family: "FuturaStd-Condensed" ;
+    font-family: "FuturaStd-Condensed" , Arial;
     font-weight: bold;
     font-size: 2.2em;
     float: right;
