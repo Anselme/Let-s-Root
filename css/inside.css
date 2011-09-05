@@ -1,0 +1,17 @@
+body {
+    background-color: #E8E8E8 ;
+}
+
+header {
+    margin-left: 4em;
+    margin-top: 6em;
+}
+.sidebar {
+    background-image: url('/img/root-min.png') ;
+    background-repeat: no-repeat;
+    height: 800px ;
+}
+
+.content {
+    margin-top: 10em;
+}
