@@ -68,12 +68,18 @@ h2 {
     width: 60%;
 }
 
+#perso {
+    margin-bottom: -2em;
+    width: 80%;
+}
+
 #contact {
     text-decoration: none;
     font-family: "FuturaStd-Condensed" ;
     font-weight: bold;
     font-size: 2.2em;
     color: #6B6C6E ;
+    float: left;
 }
 
 #cv {
