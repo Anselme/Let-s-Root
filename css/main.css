@@ -87,9 +87,13 @@ p {
 
 #container {
     position:absolute;
+    width: 100%;
 }
 
 .contact {
+    position:absolute;
+    margin-top: 10%;
+    margin-left: 30%;
 }
 
 .contact a {
@@ -101,6 +105,9 @@ p {
 }
 
 .cv {
+    position:absolute;
+    margin-top: 12%;
+    margin-left: 68%;
 }
 
 .cv a {
@@ -112,9 +119,15 @@ p {
 }
 
 .title {
+    position:absolute;
+    margin-left: 40%;
+    margin-top: 15%;
 }
 
 .realisations {
+    position:absolute;
+    margin-top: 23%;
+    margin-left: 65%;
 }
 
 .realisations a {
