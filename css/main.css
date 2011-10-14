@@ -65,9 +65,10 @@ h1 span {
 h2 {
     font-family: "FuturaStd-Condensed", Arial ;
     font-weight: lighter;
-    font-size: 1.0em;
+    font-size: 1.1em;
     margin-top: 0px;
-    letter-spacing: 2px;
+    letter-spacing: 2.3px;
+    white-space: nowrap;
 }
 
 h3 {
