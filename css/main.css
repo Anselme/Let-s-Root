@@ -27,6 +27,13 @@ html,body {
     color: #000 ;
 }
 
+img.grib {
+   position: absolute;
+   height: 250px ;
+   margin-left:41%;
+   margin-top:8%;
+}
+
 img.bg {
         /* Set rules to fill background */
         min-height: 100%;
