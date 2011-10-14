@@ -23,7 +23,6 @@ html,body {
     font-family: "FuturaStd", Arial ;
     height: 100%;
     width: 100%;
-    overflow: hidden;
     color: #000 ;
 }
 
@@ -93,8 +92,9 @@ p {
 }
 
 #container {
-    position:absolute;
+    position:relative;
     width: 100%;
+    height: 100%;
 }
 
 .contact {
@@ -147,24 +147,32 @@ p {
 
 .rotate_35 {
     transform:rotate(35deg);
+    -webkit-transform: rotate(35deg);
     -ms-transform:rotate(35deg);
     -moz-transform: rotate(35deg);
-    -webkit-transform: rotate(35deg);
     -o-transform:rotate(35deg);
 }
 
 .rotate_minus_15 {
     transform:rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
     -ms-transform:rotate(-15deg);
     -moz-transform: rotate(-15deg);
-    -webkit-transform: rotate(-15deg);
     -o-transform:rotate(-15deg);
 }
 
 a:hover {
-    transform:rotate(0deg);
-    -ms-transform:rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform:rotate(0deg);
+    transform:rotate(-35deg);
+    -webkit-transform: rotate(-35deg);
+    -ms-transform:rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -o-transform:rotate(-35deg);
+}
+
+.realisations a:hover {
+    transform:rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -ms-transform:rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -o-transform:rotate(15deg);
 }
