@@ -59,7 +59,6 @@ h1 {
     font-family: "FuturaStd-Condensed", Arial ;
     font-weight: bold;
     font-size: 3.6em;
-    margin-bottom: 0px;
     white-space: nowrap;
 }
 
@@ -71,7 +70,6 @@ h2 {
     font-family: "FuturaStd-Condensed", Arial ;
     font-weight: lighter;
     font-size: 1.1em;
-    margin-top: 0px;
     letter-spacing: 2.3px;
     white-space: nowrap;
 }
@@ -81,7 +79,6 @@ h3 {
     font-weight: bold;
     font-size: 2.2em;
     color: #6B6C6E ;
-    margin-top: 1.5em;
 }
 
 p {
@@ -90,58 +87,42 @@ p {
 
 #container {
     position:absolute;
-    left: 50%;
-    top: 18%;
-    width: 50%;
-    height: 40%;
-  /*  margin-top: -15%;*/
-    margin-left: -19%;
 }
 
-#first {
-    margin-right: 25%;
+.contact {
 }
 
-#second {
-    margin-left: 20%;
-}
-
-#third {
-    margin-right: 10%;
-}
-
-#contact a {
+.contact a {
     text-decoration: none;
     font-family: "FuturaStd-Condensed" , Arial;
     font-weight: bold;
     font-size: 1.6em;
     color: #6B6C6E ;
-    float: left;
 }
 
-#cv {
-    margin-left: 10px;
+.cv {
 }
 
-#cv a {
+.cv a {
     text-decoration: none;
     font-family: "FuturaStd-Condensed" , Arial;
     font-weight: bold;
     font-size: 2.8em;
     color: #E8B2A9 ;
-    float: right;
 }
 
-#title {
+.title {
 }
 
-#realisations a {
+.realisations {
+}
+
+.realisations a {
     color: #6B6C6E ;
     text-decoration: none;
     font-family: "FuturaStd-Condensed" , Arial;
     font-weight: bold;
     font-size: 1.6em;
-    float: right;
 }
 
 .rotate_35 {
