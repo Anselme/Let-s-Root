@@ -1,10 +1,6 @@
-body {
-    background-color: none ;
-}
-
 header {
-    margin-left: 4em;
-    margin-top: 6em;
+    margin-left: 4%;
+    margin-top: 5%;
 }
 .sidebar {
     background-image: url('/img/root-min.png') ;
@@ -15,4 +11,25 @@ header {
 
 .content {
     margin-top: 10em;
+}
+
+a {
+    text-decoration: none;
+    color: #3D9926;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #3D9926;
+}
+
+/* over-write bootstrap */
+h1 {
+    margin-bottom: 2px;
+    line-height: inherit;
+    font-size: 3.9em;
+}
+
+h2 {
+    color: #000;
 }
