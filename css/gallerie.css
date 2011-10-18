@@ -1,0 +1,13 @@
+.diapo {
+    border: 10px solid #fff;
+    box-shadow: 1px 1px 12px #555;
+}
+
+/* over-write de bootstrap */
+.row .span-one-third {
+    width: 290px;
+}
+
+.row [class^="span"] {
+    margin-left: 0;
+}
