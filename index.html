@@ -8,6 +8,7 @@
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link href="css/reset.css" rel="stylesheet" type="text/css" />
         <link href="css/main.css" rel="stylesheet" type="text/css" />
+        <link href="css/tipsy.css" rel="stylesheet" type="text/css" />
         <script src="js/modernizr.custom.57212.js"></script>
      </head>
 
@@ -20,25 +21,28 @@
                      <h2>DÉVELOPPEMENT D'APPLICATIONS WEB</h2>
                  </div>
                  <div class="contact rotate_35">
-                     <a href="/realisations.html" title="Demandez-moi ce que je peux faire pour vous" class="rotate_hover" >CONTACT</a>
+                     <a href="/realisations.html" title="Demandez-moi ce que je peux faire pour vous" class="rotate_hover" rel="tipsy">CONTACT</a>
                  </div>
                  <div class="cv rotate_35">
-                     <a href="http://www.doyoubuzz.net/stephane-girault" title="Ce que j'ai fait avant Let's Root (nouvelle fenêtre)" class="rotate_hover" target="_blank">CV</a>
+                     <a href="http://re.vu/stephane" title="Ce que j'ai fait avant Let's Root (nouvelle fenêtre)" class="rotate_hover" target="_blank" rel="tipsy">CV</a>
                  </div>
                  <div class="realisations rotate_minus_15">
-                     <a href="/gallerie.html" title="Ce que j'ai fait depuis Let's Root" class="rotate_hover">RÉALISATIONS</a>
+                     <a href="/gallerie.html" title="Ce que j'ai fait depuis Let's Root" class="rotate_hover" rel="tipsy">RÉALISATIONS</a>
                  </div>
          </div>
-        <script type="text/javascript">
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-25220757-1']);
-            _gaq.push(['_trackPageview']);
+         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+         <script type='text/javascript' src='js/jquery.tipsy.js'></script>
+         <script type='text/javascript' src='js/letsroot.js'></script>
+         <script type="text/javascript">
+             var _gaq = _gaq || [];
+             _gaq.push(['_setAccount', 'UA-25220757-1']);
+             _gaq.push(['_trackPageview']);
 
-            (function() {
-             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-             })();
-         </script>
+             (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+              })();
+</script>
      </body>
  </html>

@@ -1,6 +1,7 @@
 .diapo {
     border: 10px solid #fff;
     box-shadow: 1px 1px 12px #555;
+    -webkit-box-shadow: 1px 1px 12px #555;
 }
 
 /* over-write de bootstrap */
