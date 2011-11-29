@@ -23,6 +23,10 @@ a:hover {
     color: #3D9926;
 }
 
+header a:hover {
+    text-decoration: none;
+}
+
 /* over-write bootstrap */
 h1 {
     margin-bottom: 2px;
