@@ -85,8 +85,18 @@ h2 {
 h3 {
     font-family: "FuturaStd-Condensed" , Arial;
     font-weight: bold;
-    font-size: 2.2em;
+    font-size: 1.6em;
     color: #6B6C6E ;
+}
+
+.title{
+    margin-left: 40%;
+    margin-top: 18%;
+    position: absolute;
+}
+
+.content {
+    margin-top: 20%;
 }
 
 p {
@@ -99,82 +109,42 @@ p {
     height: 100%;
 }
 
-.contact {
-    position:absolute;
-    margin-top: 10%;
-    margin-left: 30%;
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin-bottom: 20px;
+  font-size: 13px;
+  line-height: 18px;
 }
 
-.contact a {
+#container {
+  margin: 0 auto;
+  width: 900px;
+}
+.section {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  height: 100%;
+}
+.section p:last-child {
+  margin-bottom: 0;
+}
+
+a {
     text-decoration: none;
-    font-family: "FuturaStd-Condensed" , Arial;
+    color: #3D9926;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #3D9926;
+}
+
+strong {
     font-weight: bold;
-    font-size: 1.6em;
-    color: #6B6C6E ;
+    font-size: 1.1em;
 }
 
-.cv {
-    position:absolute;
-    margin-top: 12%;
-    margin-left: 68%;
-}
-
-.cv a {
-    text-decoration: none;
-    font-family: "FuturaStd-Condensed" , Arial;
-    font-weight: bold;
-    font-size: 2.8em;
-    color: #E8B2A9 ;
-}
-
-.title {
-    position:absolute;
-    margin-left: 40%;
-    margin-top: 15%;
-}
-
-.realisations {
-    position:absolute;
-    margin-top: 23%;
-    margin-left: 65%;
-}
-
-.realisations a {
-    color: #6B6C6E ;
-    text-decoration: none;
-    font-family: "FuturaStd-Condensed" , Arial;
-    font-weight: bold;
-    font-size: 1.6em;
-}
-
-.rotate_35 {
-    transform:rotate(35deg);
-    -webkit-transform: rotate(35deg);
-    -ms-transform:rotate(35deg);
-    -moz-transform: rotate(35deg);
-    -o-transform:rotate(35deg);
-}
-
-.rotate_minus_15 {
-    transform:rotate(-15deg);
-    -webkit-transform: rotate(-15deg);
-    -ms-transform:rotate(-15deg);
-    -moz-transform: rotate(-15deg);
-    -o-transform:rotate(-15deg);
-}
-
-a.rotate_hover:hover {
-    transform:rotate(-35deg);
-    -webkit-transform: rotate(-35deg);
-    -ms-transform:rotate(-35deg);
-    -moz-transform: rotate(-35deg);
-    -o-transform:rotate(-35deg);
-}
-
-.realisations a:hover {
-    transform:rotate(15deg);
-    -webkit-transform: rotate(15deg);
-    -ms-transform:rotate(15deg);
-    -moz-transform: rotate(15deg);
-    -o-transform:rotate(15deg);
-}

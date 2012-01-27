@@ -7,6 +7,8 @@
 /* over-write de bootstrap */
 .row .span-one-third {
     width: 290px;
+    display: inline;
+    float: left;
 }
 
 .row [class^="span"] {
