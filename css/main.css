@@ -126,7 +126,7 @@ p {
 }
 .section {
   padding-bottom: 20px;
-  padding-top: 20px;
+  padding-top: 20%;
   height: 100%;
 }
 .section p:last-child {
