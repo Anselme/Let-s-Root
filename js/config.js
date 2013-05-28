@@ -85,7 +85,11 @@ jQuery(window).load(function() {
 					if (isTouch && (window.orientation == 0 || window.orientation == 180))
 						_wrapper.css('padding-top', Math.max(((_window.height() - (panels[activePanelId].outerHeight() + _footer.outerHeight())) / 2) - _nav.height(), 30) + 'px');
 					else
-						_wrapper.css('padding-top', (((_window.height() - panels[firstPanelId].height()) / 2) - _nav.height()) + 'px');
+                    {
+                        /* Bibi */
+                        _window.height() > 900 ? bibi = 3 : bibi = 2 ;
+						_wrapper.css('padding-top', (((_window.height() - panels[firstPanelId].height()) / bibi) - _nav.height()) + 'px');
+                    }
 				};
 				
 			// Panels

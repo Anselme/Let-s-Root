@@ -15,6 +15,8 @@
 		<script src="js/jquery-1.9.1.min.js"></script>
 		<script src="js/config.js"></script>
 		<script src="js/skel.min.js"></script>
+        <link href="css/tipsy.css" rel="stylesheet" type="text/css" />
+        <script type='text/javascript' src='js/jquery.tipsy.js'></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -64,24 +66,24 @@
 								<section class="is-gallery">
 									<div class="row">
 										<div class="4u">
-											<a href="http://actes-environnement.com" class="image image-full diapo" title="Actes Environnement - Valorisation des Déchets"><img src="images/1.png" alt=""></a>
+											<a href="http://actes-environnement.com" class="image image-full diapo" title="Actes Environnement - Valorisation des Déchets" rel="tipsy-s"><img src="images/1.png" alt=""></a>
 										</div>
 										<div class="4u">
-											<a href="http://www.lapaperie.fr" class="image image-full diapo" title="La Paperie - Centre National des Arts de la Rue"><img src="images/3.png" alt=""></a>
+											<a href="http://www.lapaperie.fr" class="image image-full diapo" title="La Paperie - Centre National des Arts de la Rue" rel="tipsy-s"><img src="images/3.png" alt=""></a>
 										</div>
 										<div class="4u">
-											<a href="http://nantes-data-journalisme.net" class="image image-full diapo" title="Laboratoire de Data Journalism"><img src="images/2.png" alt=""></a>
+											<a href="http://nantes-data-journalisme.net" class="image image-full diapo" title="Laboratoire de Data Journalism" rel="tipsy-s"><img src="images/2.png" alt=""></a>
 										</div>
 									</div>
 									<div class="row">
 										<div class="4u">
-											<a href="http://dd2012.paysdelaloire.fr" class="image image-full diapo" title="Le développement durable dans les Pays de la Loire"><img src="images/4.png" alt=""></a>
+											<a href="http://dd2012.paysdelaloire.fr" class="image image-full diapo" title="Le développement durable dans les Pays de la Loire" rel="tipsy-n"><img src="images/4.png" alt=""></a>
 										</div>
 										<div class="4u">
-											<a href="http://www.stephanieperroin.com" class="image image-full diapo" title="Architecte d'Intérieur | Stéphanie Perroin | La Baule"><img src="images/5.png" alt=""></a>
+											<a href="http://www.stephanieperroin.com" class="image image-full diapo" title="Architecte d'Intérieur | Stéphanie Perroin | La Baule" rel="tipsy-n"><img src="images/5.png" alt=""></a>
 										</div>
 										<div class="4u">
-											<a href="http://www.terraeco.net" class="image image-full diapo" title="Terra eco, le magazine qui change le monde"><img src="images/6.png" alt=""></a>
+											<a href="http://www.terraeco.net" class="image image-full diapo" title="Terra eco, le magazine qui change le monde" rel="tipsy-n"><img src="images/6.png" alt=""></a>
 										</div>
 									</div>
 								</section>
@@ -145,5 +147,10 @@
               var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
               })();
           </script>
+
+          <script type="text/javascript">
+              $('a[rel="tipsy-n"]').tipsy({gravity: 'n'});
+              $('a[rel="tipsy-s"]').tipsy({gravity: 's'});
+              </script>
 	</body>
 </html>
