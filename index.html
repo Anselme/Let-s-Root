@@ -17,6 +17,7 @@
 		<script src="js/skel.min.js"></script>
         <link href="css/tipsy.css" rel="stylesheet" type="text/css" />
         <script type='text/javascript' src='js/jquery.tipsy.js'></script>
+        <script type='text/javascript' src='js/letsroot.js'></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -94,29 +95,32 @@
 								<header>
 									<h2>Contact</h2>
 								</header>
-								<form action="contact.php" method="post">
+                                <div id="confirm-email">
+                                    Votre message m'a bien été transmis, merci de votre confiance.
+                                </div>
+								<form id="form-contact" action="contact.php" method="post">
 									<div>
 										<div class="row">
 											<div class="6u">
-												<input type="text" class="text" name="name" placeholder="Nom" required="required"/>
+												<input type="text" id="name" class="text" name="name" placeholder="Nom" required="required"/>
 											</div>
 											<div class="6u">
-												<input type="email" class="text" name="email" placeholder="Courriel" required="required"/>
+												<input type="email" id="email" class="text" name="email" placeholder="Courriel" required="required"/>
 											</div>
 										</div>
 										<div class="row">
 											<div class="12u">
-												<input type="text" class="text" name="subject" placeholder="Sujet" required="required"/>
+												<input type="text" id="subject" class="text" name="subject" placeholder="Sujet" required="required"/>
 											</div>
 										</div>
 										<div class="row">
 											<div class="12u">
-												<textarea name="message" placeholder="Message" required="required"></textarea>
+												<textarea id="message" name="message" placeholder="Message" required="required"></textarea>
 											</div>
 										</div>
 										<div class="row">
 											<div class="12u">
-												<input type="submit" class="button" value="et Hop ! " />
+												<input type="submit" id="form-button" class="button" value="et Hop ! " />
 											</div>
 										</div>
 									</div>
