@@ -1,5 +1,9 @@
-
 $(function() {   
+    
+    //bulle au-dessus des réalisations
+    $('a[rel="tipsy-n"]').tipsy({gravity: 'n'});
+    $('a[rel="tipsy-s"]').tipsy({gravity: 's'});
+
     $('#form-button').on('click', function () {       
 
         var name = $('input[id=name]');
