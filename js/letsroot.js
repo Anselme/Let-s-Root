@@ -3,6 +3,8 @@ $(function() {
     //bulle au-dessus des réalisations
     $('a[rel="tipsy-n"]').tipsy({gravity: 'n'});
     $('a[rel="tipsy-s"]').tipsy({gravity: 's'});
+    $('a[rel="tipsy-e"]').tipsy({gravity: 'e'});
+    $('a[rel="tipsy-w"]').tipsy({gravity: 'w'});
 
     $('#form-button').on('click', function () {       
 
