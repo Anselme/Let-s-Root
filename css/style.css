@@ -59,6 +59,12 @@ a:hover
     color: #005200;
 }
 
+.hidden {
+    left: -7000px;
+    overflow: hidden;
+    position: absolute;
+}
+
 body
 {
     /*
